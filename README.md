@@ -43,7 +43,7 @@ Se seleccionó **Gemini 2.5 Flash** por ser el modelo de Google con la mejor rel
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone https://github.com/gaszsantana/runa-hr-agent.git
+    git clone [https://github.com/gaszsantana/runa-hr-agent.git](https://github.com/gaszsantana/runa-hr-agent.git)
     cd runa-hr-agent
     ```
 
@@ -52,8 +52,12 @@ Se seleccionó **Gemini 2.5 Flash** por ser el modelo de Google con la mejor rel
     npm install
     ```
 
-3.  **Configurar variables de entorno:**
-    Crea un archivo `.env.local` con tu API Key:
+3.  **Configurar variables de entorno (API Key):**
+    Para que el motor de IA funcione, necesitas generar una clave de acceso gratuita de Google Gemini.
+    * Ingresa a [Google AI Studio - API Keys](https://aistudio.google.com/u/1/api-keys).
+    * Inicia sesión con tu cuenta de Google y haz clic en el botón **"Create API key"** (Crear clave de API).
+    * En la raíz de tu proyecto local, crea un archivo llamado `.env.local`.
+    * Pega la clave que acabas de copiar con la siguiente estructura:
     ```env
     GOOGLE_GENERATIVE_AI_API_KEY=tu_api_key_aqui
     ```
