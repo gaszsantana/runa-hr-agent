@@ -1,7 +1,8 @@
-const config = {
-  plugins: {
-    "@tailwindcss/postcss": {},
+
+const nextConfig = {
+  devIndicators: {
+    buildActivity: false,
   },
 };
 
-export default config;
+export default nextConfig;
