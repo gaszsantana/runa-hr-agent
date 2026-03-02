@@ -43,7 +43,7 @@ Se seleccionó **Gemini 2.5 Flash** por ser el modelo de Google con la mejor rel
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone [https://github.com/gaszsantana/runa-hr-agent.git](https://github.com/gaszsantana/runa-hr-agent.git)
+    git clone https://github.com/gaszsantana/runa-hr-agent.git
     cd runa-hr-agent
     ```
 
